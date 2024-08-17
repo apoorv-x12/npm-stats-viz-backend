@@ -1,0 +1,26 @@
+{
+  "name": "npm-stats-viz-backend",
+  "version": "1.0.0",
+  "description": "Backend for npm-stats-viz frontend implemented in MVC architecture written in node.js and express using typescript.",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon ",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Apoorv Shrivastava",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.4.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
